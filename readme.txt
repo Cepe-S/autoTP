@@ -94,4 +94,31 @@ printf("Trabajo Pr�ctico 1\n\n\n--------------If statements--------------\n\n1
     return 0;
 }
 
-esto genera un menú donde se puede seleccionar que ejercicio ejecutar de manera comoda
+Esto genera un menú donde se puede seleccionar que ejercicio ejecutar de manera cómoda y tambien permite al alumno no tener que encerrar funciones en comentarios, facilitando así la realización; la cual sería en una función por cada ejercicio y también facilita la revisión de las mismas.
+
+El menú se vería de la siguiente manera y se ejecutaría en bucle hasta que se solicite que se cierre:
+
+Trabajo Practico 1
+
+
+--------------If statements--------------
+
+1. Ejercicio 1
+2. Ejercicio 2
+3. Ejercicio 3
+
+--------------For loops--------------
+
+4. Ejercicio 1
+5. Ejercicio 2
+6. Ejercicio 3
+
+--------------Do loops--------------
+
+7. Ejercicio 1
+8. Ejercicio 2
+9. Ejercicio 3
+10. Ejercicio 4
+
+Seleccione un ejercicio:
+
