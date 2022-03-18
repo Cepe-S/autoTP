@@ -93,3 +93,5 @@ printf("Trabajo Pr�ctico 1\n\n\n--------------If statements--------------\n\n1
     }
     return 0;
 }
+
+esto genera un menú donde se puede seleccionar que ejercicio ejecutar de manera comoda
