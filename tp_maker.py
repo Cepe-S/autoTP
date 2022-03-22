@@ -84,7 +84,7 @@ class Maker:
         exercice_num = 1;
         for title, exercices in self.apartados.items():
             self.menu += f"\\n--------------{title}--------------\\n\\n" # agrega un subtítulo al menú
-            self.functions += f"//---------{title}---------\n\n"
+            self.functions += f"//---------{title}---------//\n\n"
             for i in range(len(exercices)):
                 self.functions += f"//{exercices[i]}\nint Ejercicio{exercice_num}() {l}\n    \n{r}\n\n" # genera las funciones y les agrega la consigna
                 self.menu += f"[{exercice_num}] Ejercicio {i+1}\\n" # agrega los ejercicios al submenú
